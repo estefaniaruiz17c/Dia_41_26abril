@@ -36,10 +36,11 @@ cat("\nModificación de variables
 cat(".variable_2 modificada: ",.variable_2,"\n")
 
 # Eliminación de variables: podemos eleminar una variable usando la función rm (). Al intentar imprimir una variable ya eliminada, el sistema arrojará error, saldrá que ese objeto no fue encontrado
-cat("\nEliminación de variables
+cat("\nEliminación de variable.1. Si imprimimos la variable eliminada, sale error, por lo cual mostraremos la expresión para hacer la eliminación de variables
 \n")
 
 rm(variable.1)
+print("rm(variable.1)")
 # print(variable.1)
 
 # Usaremos cat("--------") para indicar una separación entre ejercicios
